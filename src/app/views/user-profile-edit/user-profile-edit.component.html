@@ -23,7 +23,13 @@
             <a routerLink="/users/profile">
               <mat-icon>undo</mat-icon>
             </a>
-            <button mat-icon-button aria-label="save" color="primary" type="submit">
+            <button
+              mat-icon-button
+              aria-label="save"
+              color="primary"
+              type="submit"
+              [disabled]="!userProfileForm.valid"
+            >
               <mat-icon>save</mat-icon>
             </button>
           </div>
