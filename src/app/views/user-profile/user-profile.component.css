@@ -1,7 +1,6 @@
 .user-profile__container {
   width: 100%;
   min-height: calc(100vh - 50px);
-  padding-top: 50px;
 
   display: flex;
   flex-direction: column;
@@ -9,6 +8,7 @@
 }
 
 .user-profile__card {
+  margin-top: 50px;
   padding: 30px;
   display: flex;
   flex-direction: column;
